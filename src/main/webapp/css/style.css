@@ -1,0 +1,135 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4/09/2022, 4:35:26 pm
+    Author     : hongyuhuang
+*/
+
+:root {
+    --primary: #8bc34a;
+    --primary-light: #a2cf6e;
+    --primary-dark: #618833;
+}
+
+* {
+    /* Text */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+header {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+}
+nav {
+    overflow: hidden;
+    background: var(--primary-dark);
+    padding: 0;
+    
+}
+
+nav a {
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav span {
+    float: right;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    background: var(--primary-light);
+}
+
+/* centre the main content area */
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* page headings */
+h1 {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    background: var(--primary);
+    color: white;
+}
+
+/* tables */
+table {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px 0px;
+}
+
+td, th {
+    border: thin;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* forms */
+form {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-gap: 1em 0.5em;
+}
+
+label {
+    grid-column: 1 / 2;
+    text-align: right;
+    padding: 5px;
+}
+
+input, button, select, textarea {
+    grid-column: 2 / 3;
+}
+
+textarea {
+    height: 4em;
+    resize: vertical;
+}
+
+input, select, textarea, button{
+    width: 100%;
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    resize: vertical 
+}
+
+button:hover {
+    cursor: pointer;
+    background: var(--primary-dark);
+    color: white;
+    border: 1px solid var(--primary-dark);
+
+}
+
+legend {
+    font-weight: bold;
+}
+
+.category {
+    width: auto;
+}
+
