@@ -6,7 +6,7 @@ The website is connected to an H2 Database which stores the data for the custome
 
 Currently the website is only hosted locally since I'm still figuring how to get the H2 database to open along with the site.
 
-The next half of the project involves implementing the shopping cart and checkout features. Which will be done using client-side rendering techniques for this phase of the project (REST web services and AJAX).
+The next half of the project involves implementing the shopping cart and checkout features. Which will be done using client-side rendering techniques through REST web services and AJAX.
 
 <img width="1440" alt="Screen Shot 2022-09-05 at 9 15 18 PM" src="https://user-images.githubusercontent.com/31984374/188414302-aed0984e-fab4-41bd-9ede-09888a266d61.png">
 <img width="1440" alt="Screen Shot 2022-09-05 at 9 15 23 PM" src="https://user-images.githubusercontent.com/31984374/188414386-d358ee8b-9907-4346-8636-dbefb88738d2.png">
