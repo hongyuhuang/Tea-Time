@@ -4,7 +4,7 @@ The objective of the project is an online shopping system. For the first half of
 
 The website is connected to an H2 Database which stores the data for the customers and products in a table. This data is accessed through the use of SQL statements. The navigation bar only displays the links to "Browse Products" and "View Cart" when the user has correctly signed in to the application. When the user tries to create an account the input is validated so that the form meets the constraint of the data type and the database. The products are added to the database through the use of the Product Catalogue seen here https://github.com/hongyuhuang/Product-Catalogue. 
 
-Currently the website is only hosted locally since I'm still figuring how to get the H2 database to open along with the site.
+Currently the website is only hosted locally since the H2 database only runs on a local connection.
 
 The next half of the project involves implementing the shopping cart and checkout features. Which will be done using client-side rendering techniques through REST web services and AJAX.
 
